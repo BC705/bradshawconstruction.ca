@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Bradshaw Construction photo gallery." />
+  <title>Bradshaw Construction | Project Gallery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html#top" aria-label="Bradshaw Construction home">
+        <img src="assets/images/logo_dark.jpg" alt="Bradshaw Construction logo" />
+      </a>
+      <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+      <nav class="nav-links">
+        <a href="index.html#services">Services</a>
+        <a href="index.html#featured">Featured Work</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="index.html#reviews">Reviews</a>
+        <a href="index.html#contact" class="nav-cta">Request a Quote</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container page-hero-content">
+        <p class="eyebrow dark">Project Gallery</p>
+        <h1>More finished work by category</h1>
+        <p>Browse through the portfolio and filter by the type of work you want to show.</p>
+        <div class="filter-bar">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="windows-doors">Windows & Doors</button>
+          <button class="filter-btn" data-filter="garages-additions">Garages & Additions</button>
+          <button class="filter-btn" data-filter="interior-renovations">Interior Renovations</button>
+          <button class="filter-btn" data-filter="exterior-renovations">Exterior Renovations</button>
+          <button class="filter-btn" data-filter="decks">Decks & Outdoor Living</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section gallery-page-section">
+      <div class="container">
+        <div class="gallery-page-grid">
+          <figure class="gallery-card" id="windows-doors" data-category="windows-doors"><img src="assets/images/wd_window.jpg" alt="Window project" /><figcaption>Windows & Doors</figcaption></figure>
+          <figure class="gallery-card" data-category="windows-doors"><img src="assets/images/wd_entry.jpg" alt="Entry door project" /><figcaption>Windows & Doors</figcaption></figure>
+          <figure class="gallery-card" data-category="windows-doors"><img src="assets/images/wd_side_door.jpg" alt="Side door project" /><figcaption>Windows & Doors</figcaption></figure>
+          <figure class="gallery-card" data-category="windows-doors"><img src="assets/images/wd_slider.jpg" alt="Slider door project" /><figcaption>Windows & Doors</figcaption></figure>
+
+          <figure class="gallery-card" id="garages-additions" data-category="garages-additions"><img src="assets/images/ga_garage_snow.jpg" alt="Detached garage in winter" /><figcaption>Garages & Additions</figcaption></figure>
+          <figure class="gallery-card" data-category="garages-additions"><img src="assets/images/ga_blue_garage.jpg" alt="Blue garage" /><figcaption>Garages & Additions</figcaption></figure>
+          <figure class="gallery-card" data-category="garages-additions"><img src="assets/images/ga_garage_front.jpg" alt="Garage front" /><figcaption>Garages & Additions</figcaption></figure>
+          <figure class="gallery-card" data-category="garages-additions"><img src="assets/images/ga_addition.jpg" alt="Finished addition" /><figcaption>Garages & Additions</figcaption></figure>
+
+          <figure class="gallery-card" id="interior-renovations" data-category="interior-renovations"><img src="assets/images/ir_hallway.jpg" alt="Finished hallway" /><figcaption>Interior Renovations</figcaption></figure>
+          <figure class="gallery-card" data-category="interior-renovations"><img src="assets/images/ir_understairs.jpg" alt="Understairs detail" /><figcaption>Interior Renovations</figcaption></figure>
+          <figure class="gallery-card" data-category="interior-renovations"><img src="assets/images/ir_barn_door.jpg" alt="Barn door" /><figcaption>Interior Renovations</figcaption></figure>
+          <figure class="gallery-card" data-category="interior-renovations"><img src="assets/images/ir_french_doors.jpg" alt="French doors" /><figcaption>Interior Renovations</figcaption></figure>
+
+          <figure class="gallery-card" id="exterior-renovations" data-category="exterior-renovations"><img src="assets/images/er_cottage.jpg" alt="Exterior cottage project" /><figcaption>Exterior Renovations</figcaption></figure>
+          <figure class="gallery-card" data-category="exterior-renovations"><img src="assets/images/er_lakehouse.jpg" alt="Lakehouse exterior" /><figcaption>Exterior Renovations</figcaption></figure>
+          <figure class="gallery-card" data-category="exterior-renovations"><img src="assets/images/er_sunroom.jpg" alt="Sunroom or addition" /><figcaption>Exterior Renovations</figcaption></figure>
+          <figure class="gallery-card" data-category="exterior-renovations"><img src="assets/images/er_finished_exterior.jpg" alt="Finished exterior project" /><figcaption>Exterior Renovations</figcaption></figure>
+
+          <figure class="gallery-card" id="decks" data-category="decks"><img src="assets/images/deck_backyard.jpg" alt="Backyard deck" /><figcaption>Decks & Outdoor Living</figcaption></figure>
+          <figure class="gallery-card" data-category="decks"><img src="assets/images/deck_gazebo_view.jpg" alt="Gazebo view" /><figcaption>Decks & Outdoor Living</figcaption></figure>
+          <figure class="gallery-card" data-category="decks"><img src="assets/images/deck_gazebo_door.jpg" alt="Gazebo detail" /><figcaption>Decks & Outdoor Living</figcaption></figure>
+          <figure class="gallery-card" data-category="decks"><img src="assets/images/deck_big_deck.jpg" alt="Large deck" /><figcaption>Decks & Outdoor Living</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section compact">
+      <div class="container contact-grid">
+        <div>
+          <p class="eyebrow">Need a quote?</p>
+          <h2>Let’s talk about your project.</h2>
+          <p>Send over the details or call directly.</p>
+        </div>
+        <div class="cta-card-simple">
+          <a class="btn btn-primary full" href="tel:+17052099653">Call 705-209-9653</a>
+          <a class="btn btn-outline full dark-outline" href="index.html#contact">Request a Quote</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" aria-label="Close image">×</button>
+    <img class="lightbox-image" src="" alt="Expanded gallery image" />
+  </div>
+
+  <footer>
+    <div class="container footer-wrap">
+      <div class="footer-branding">
+        <img class="footer-logo" src="assets/images/logo_dark.jpg" alt="Bradshaw Construction logo" />
+        <div>
+          <strong>Bradshaw Construction</strong>
+          <p>Cleaner finished work for residential construction and renovations.</p>
+        </div>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a target="_blank" rel="noopener" href="https://g.page/r/CT6-8Oa7qsk0EAE/review">Google Reviews</a>
+        <a href="tel:+17052099653">705-209-9653</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© <span id="year"></span> Bradshaw Construction. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
