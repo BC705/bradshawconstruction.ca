@@ -602,6 +602,8 @@ footer {
   .showcase-grid > .feature-tile:nth-child(-n+2) {
     height: auto;
     aspect-ratio: 4 / 3;
+    justify-self: stretch;
+    min-width: 0;
   }
   .showcase-grid > .feature-tile:nth-child(-n+2) img {
     position: absolute;
