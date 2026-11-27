@@ -258,6 +258,7 @@ p { margin: 0 0 14px; }
   box-shadow: var(--shadow);
 }
 .feature-tile.tall { min-height: 420px; }
+.showcase-grid > .feature-tile:nth-child(-n+2) { height: 420px; }
 .feature-tile img {
   width: 100%;
   height: 100%;
@@ -598,6 +599,7 @@ footer {
   .showcase-grid { grid-template-columns: 1fr; }
   .feature-tile,
   .feature-tile.tall { min-height: 260px; }
+  .showcase-grid > .feature-tile:nth-child(-n+2) { height: 260px; }
 }
 @media (max-width: 640px) {
   .brand img, .footer-logo { height: 46px; }
