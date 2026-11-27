@@ -599,7 +599,14 @@ footer {
   .showcase-grid { grid-template-columns: 1fr; }
   .feature-tile,
   .feature-tile.tall { min-height: 260px; }
-  .showcase-grid > .feature-tile:nth-child(-n+2) { height: 260px; }
+  .showcase-grid > .feature-tile:nth-child(-n+2) {
+    height: auto;
+    aspect-ratio: 4 / 3;
+  }
+  .showcase-grid > .feature-tile:nth-child(-n+2) img {
+    position: absolute;
+    inset: 0;
+  }
 }
 @media (max-width: 640px) {
   .brand img, .footer-logo { height: 46px; }
